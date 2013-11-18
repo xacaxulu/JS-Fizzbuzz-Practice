@@ -15,3 +15,21 @@ var plus1 = +1;
 while (count <= 99) {
     count = count + plus1;
     console.log(count)}
+
+//And after playing around a while, I got it. I learned that if I put the "FizzBuzz" part
+//after the "Fizz" and "Buzz" sections, it wouldn't work properly. Order of events matters: noted. -lh
+var count = 0;
+var plus1 = +1;
+while (count <= 99) {
+    count = count + plus1;
+    if (count%3 === 0 && count%5 === 0) {
+        console.log("FizzBuzz");
+    }
+    else if (count%3 === 0) {
+        console.log("Fizz")
+    }
+    else if (count%5 === 0) {
+        console.log("Buzz")
+    }
+    else console.log(count);
+}
