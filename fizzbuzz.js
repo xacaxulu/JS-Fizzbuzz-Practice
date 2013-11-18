@@ -46,7 +46,7 @@ while (count <= 99) {
 //New fizzbuzz down here
 //I dropped the [var i] part accidentally and just now realized it,
 //but this works. Should I make it a point to use var anyway? -lh
-for (i=1;i<=100;++i) {
+for (var i=1;i<=100;++i) {
     if (i%3 === 0 && i%5 ===0) {
         console.log("FizzBuzz");
     }
