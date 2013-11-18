@@ -15,6 +15,15 @@ var plus1 = +1;
 while (count <= 99) {
     count = count + plus1;
     console.log(count)}
+// Thats great lobsterhands. Now what if we introduced a more concise way to do a loop like this:
+for (var i=1;i<101;i++)
+{ 
+  console.log(i)
+}
+//that literally says, set var i to 1;while i is less than 101; increment i by one (literally just ad one to i)
+//then the 'loop' part happens inside {}
+// Using that loop style, rewrite fizzbuzz. 
+//You should be happy about this: http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html
 
 //And after playing around a while, I got it. I learned that if I put the "FizzBuzz" part
 //after the "Fizz" and "Buzz" sections, it wouldn't work properly. Order of events matters: noted. -lh
@@ -33,3 +42,6 @@ while (count <= 99) {
     }
     else console.log(count);
 }
+
+//New fizzbuzz down here
+
