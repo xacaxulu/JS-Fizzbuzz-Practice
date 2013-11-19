@@ -1,0 +1,10 @@
+//This is the result of several hours of work trying to write a program that counts
+//as well as prints the sum of the counted numbers. This is groundwork for completing
+//problem_1 of projecteuler.net. Chapter_2 of EloquentJavascript eureka'd me. -lh
+
+var sum = 0
+for (var i=1; i<10; i++) {
+    sum += i
+    console.log(i);    
+}
+console.log(sum);
