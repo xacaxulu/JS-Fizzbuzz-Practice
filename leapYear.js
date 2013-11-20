@@ -30,7 +30,7 @@ for (i=startYear; i<=endYear; i++) {
 
 // More concise version. I'm leaving the original so you can see how my mind works.
 // Also, line 37 was trial and error. I didn't know 100% why it worked when I first
-// wrote it, but now it's making more sense to me.
+// wrote it, but now it's making more sense to me. -lh
 var startYear = 1200;
 var endYear = 2020;
 for (i=startYear; i<=endYear; i++) {
