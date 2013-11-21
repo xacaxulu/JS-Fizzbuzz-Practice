@@ -4,7 +4,7 @@
 function reverse(word) {
     var split = word.split("");
     var rev = split.reverse("");
-    rev = rev.join("");
-    console.log(rev);
+    join = rev.join("");
+    console.log(join);
 }
 reverse("example");
