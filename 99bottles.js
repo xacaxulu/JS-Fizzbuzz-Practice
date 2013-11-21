@@ -28,3 +28,26 @@ function sing() {
 }
 
 sing();
+
+// Lobsterhands writes: This was fun until it became difficult. This program works but
+// I know there must be a *much* simpler way of writing it. Knowing this takes away some
+// of my happiness at writing a working program. -lh
+
+for (x=99; x>0; x--) {
+    if (x === 1) {
+        var y = "bottle";
+    }
+    else {
+        y = "bottles";
+    }
+var saying = (x + " " + y + " of beer on the wall\n" + x + " " + y + " of beer\ntake one down, pass it around");
+    if (x === 2) {
+        y = "bottle";
+    }
+    else if (x === 1) {
+        y = "bottles";
+    }
+var saying2 =((x-1) + " " + y + " of beer on the wall\n");
+console.log(saying);
+console.log(saying2);
+}
